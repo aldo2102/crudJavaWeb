@@ -21,8 +21,8 @@ public class DbUtil {
             try {
                 Properties prop = new Properties();
                 
-                String user = "u825179380_QroXw";
-                String password = "Aulabanco123@";
+                String user = "";
+                String password = "@";
                 Class.forName("com.mysql.cj.jdbc.Driver"); // Para quem for usar MySql
                 //Class.forName("org.postgresql.Driver");// Para quem for usar Postgres
 
